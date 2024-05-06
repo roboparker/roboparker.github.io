@@ -1,8 +1,13 @@
 name: Gatsby Publish
-                                                                                                                        on:
-  push:                                                                                                                     branches:
-      - dev                                                                                                                                                                                                                                     jobs:
-  build:                                                                                                                    runs-on: ubuntu-latest
+
+on:  
+  push: 
+    branches:
+      - source
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: enriikke/gatsby-gh-pages-action@v2
