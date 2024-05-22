@@ -1,5 +1,8 @@
 import * as React from "react"
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const NavigationBar: React.FC = () => {
     return (
@@ -10,10 +13,10 @@ const NavigationBar: React.FC = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#blog">Blog</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/roboparker" target="_blank"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</Nav.Link>
+                        <Nav.Link href="https://github.com/roboparker" target="_blank"><FontAwesomeIcon icon={faGithub} /> GitHub</Nav.Link>
+                        <Nav.Link href="mailto:roboparker@proton.me"><FontAwesomeIcon icon={faEnvelope} /> Email</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
