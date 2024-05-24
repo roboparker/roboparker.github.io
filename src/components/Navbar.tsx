@@ -12,8 +12,6 @@ const NavigationBar: React.FC = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#blog">Blog</Nav.Link>
                         <Nav.Link href="https://www.linkedin.com/in/roboparker" target="_blank"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</Nav.Link>
                         <Nav.Link href="https://github.com/roboparker" target="_blank"><FontAwesomeIcon icon={faGithub} /> GitHub</Nav.Link>
                         <Nav.Link href="mailto:roboparker@proton.me"><FontAwesomeIcon icon={faEnvelope} /> Email</Nav.Link>
