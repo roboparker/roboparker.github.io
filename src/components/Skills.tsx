@@ -32,9 +32,8 @@ const Skill = styled.div`
 
 const Skills: React.FC = () => {
     return (
-        <section className={'pt-5 pb-5'}>
+        <section className={'pt-5 pb-5 bg-light text-dark'}>
             <Container>
-                <h2>Skills</h2>
                 <StyledDiv className={'text-center'}>
                     <Skill>
                         <i className="devicon-php-plain"></i>
