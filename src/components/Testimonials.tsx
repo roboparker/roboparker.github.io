@@ -19,13 +19,11 @@ import DonGilbertImage from "../images/headshot-don-gilbert.jpg";
 
 const testimonials = [
     {
-        name: 'Daniel Drier',
-        imgSrc: DanielDrierImage,
-        text: `Robert is a skilled, hard-working engineer with an entrepreneurial mindset and strong communication skills.
-               When we worked together, he was a technical leader who other engineers went to for direction and help,
-               and he did a great job of mentoring and supporting them.
-               He's consistently a joy to work with, and I've seen him overcome obstacles and succeed
-               in a wide variety of technical projects and work environments.`
+        name: 'Jessica Wall',
+        imgSrc: JessicaWallImage,
+        text: `I highly recommend Robert for his exceptional collaborative skills.
+               His ability to seamlessly work with artists, sound designers, and game designers, combined with his open communication and adaptability,
+               make him an invaluable member for any team. I am confident that Robert's collaborative spirit and commitment to excellence will continue to shine in future endeavors.`
     },
     {
         name: 'Don Gilbert',
@@ -34,6 +32,15 @@ const testimonials = [
                He spearheaded several key initiatives for the Marketing Cloud business unit, seeing them through from concept to completion.
                These include OpenID Connect integration, inter-app API improvements, improvements to our test coverage,
                and enhancements to developer documentation which improved the working experience for many team members.`
+    },
+    {
+        name: 'Daniel Drier',
+        imgSrc: DanielDrierImage,
+        text: `Robert is a skilled, hard-working engineer with an entrepreneurial mindset and strong communication skills.
+               When we worked together, he was a technical leader who other engineers went to for direction and help,
+               and he did a great job of mentoring and supporting them.
+               He's consistently a joy to work with, and I've seen him overcome obstacles and succeed
+               in a wide variety of technical projects and work environments.`
     },
     {
         name: 'Matt Dittmann',
@@ -57,14 +64,6 @@ const testimonials = [
                I now receive numerous inquiries about my teaching and other activities and I am as busy as my schedule permits.`
     },
     {
-        name: 'Mark Hartel',
-        imgSrc: MarkHartelImage,
-        text: `Robert faithfully implemented the club’s written requirements and we were very pleased with the results;
-               the user experience on the new website is vastly improved over the previous website.
-               Robert remained involved through 2018 to provide general technical support and implement enhancements requested by our users.
-               Overall we were very happy with Robert’s technical expertise and professionalism and would definitely use his services in the future.`
-    },
-    {
         name: 'Susana Serna',
         imgSrc: SusanaSernaImage,
         text: `Robert does excellent work in a timely manner.
@@ -86,23 +85,25 @@ const testimonials = [
                I'm glad I have a good-looking site I can direct people to now.`
     },
     {
-        name: 'Jessica Wall',
-        imgSrc: JessicaWallImage,
-        text: `I highly recommend Robert for his exceptional collaborative skills.
-               His ability to seamlessly work with artists, sound designers, and game designers, combined with his open communication and adaptability,
-               make him an invaluable member for any team. I am confident that Robert's collaborative spirit and commitment to excellence will continue to shine in future endeavors.`
-    }
+        name: 'Mark Hartel',
+        imgSrc: MarkHartelImage,
+        text: `Robert faithfully implemented the club’s written requirements and we were very pleased with the results;
+               the user experience on the new website is vastly improved over the previous website.
+               Robert remained involved through 2018 to provide general technical support and implement enhancements requested by our users.
+               Overall we were very happy with Robert’s technical expertise and professionalism and would definitely use his services in the future.`
+    },
 ];
 
 export default function Testimonials() {
     var settings = {
         className: "center",
-        centerMode: true,
+        // centerMode: true,
         dots: true,
         arrows: false,
         infinite: true,
         slidesToShow: 3,
         lazyLoad: true,
+        initialSlide: 1,
         responsive: [
             {
                 breakpoint: 1400,
@@ -114,15 +115,13 @@ export default function Testimonials() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    // centerMode: false,
                 }
             }
         ]
     };
     return (
-        <section className={'bg-dark text-white pt-5 pb-5'}>
+        <section className={'bg-dark text-light pt-5 pb-5'}>
             <Container>
-                <h2>Reviews</h2>
                 <Slider {...settings}>
                     {testimonials.map((testimonial) => (
                         <Testimony

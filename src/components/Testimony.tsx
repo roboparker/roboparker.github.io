@@ -13,19 +13,22 @@ const StyledDiv = styled.div`
 `;
 
 const StyledBlockquote = styled.blockquote`
-    margin-bottom: 128px;
-    height: calc(100% - 128px);
+    height: 100%;
+    
+    &.border-start {
+        border-left-width: 16px !important;
+    }
 `;
 
 const TestimonialSlide: React.FC<TestimonialSlideProps> = ({ text, imgSrc, name }) => {
     return (
-        <div className={'m-3 mt-0 h-100'}>
-            <StyledBlockquote className={'border-start border-5 border-primary p-4 p-md-5 position-relative bg-white text-black'}>
-                <p className={'pb-5'}>{text}</p>
-                <StyledDiv className={'position-absolute text-center'}>
-                    <img className={'rounded-circle border border-4 border-primary mb-2'} src={imgSrc} alt={`Photo of ${name}`} width={'128px'} height={'128px'} />
-                    <cite className={'d-inline-block m-auto text-white'}>{name}</cite>
+        <div className={'p-3 mt-0 h-100'}>
+            <StyledBlockquote className={'border-start border-primary p-4 position-relative bg-light text-dark shadow-sm'}>
+                <StyledDiv className={'text-center'}>
+                    <img className={'rounded-circle m-auto mb-2 shadow border border-1'} src={imgSrc} alt={`Photo of ${name}`} width={'128px'} height={'128px'} />
+                    <cite className={'d-inline-block m-auto h4 mb-4 text-primary'}>{name}</cite>
                 </StyledDiv>
+                <p className={'mb-0'}>{text}</p>
             </StyledBlockquote>
         </div>
     );
