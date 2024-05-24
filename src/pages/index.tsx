@@ -4,11 +4,13 @@ import '../styles/global.scss';
 import Layout from '../components/Layout';
 import About  from "../components/About";
 import Testimonials from "../components/Testimonials";
+import Skills from "../components/Skills";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
         <About />
+        <Skills />
         <Testimonials />
     </Layout>
   )
