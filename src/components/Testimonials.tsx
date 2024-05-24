@@ -121,7 +121,7 @@ export default function Testimonials() {
         ]
     };
     return (
-        <section className={'bg-dark text-white'}>
+        <section className={'bg-dark text-white pt-5 pb-5'}>
             <Container>
                 <h2>Reviews</h2>
                 <Slider {...settings} className={'ms-4 me-4 ms-md-0 me-md-0'}>
