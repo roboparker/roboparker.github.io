@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {Container} from "react-bootstrap";
-import styled from 'styled-components';
 
 import Testimony from "./Testimony";
 
@@ -99,8 +98,8 @@ export default function Testimonials() {
     var settings = {
         className: "center",
         centerMode: true,
-        // dots: true,
-        arrows: true,
+        dots: true,
+        arrows: false,
         infinite: true,
         slidesToShow: 3,
         lazyLoad: true,
@@ -115,7 +114,7 @@ export default function Testimonials() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    centerMode: false,
+                    // centerMode: false,
                 }
             }
         ]
@@ -124,12 +123,11 @@ export default function Testimonials() {
         <section className={'bg-dark text-white pt-5 pb-5'}>
             <Container>
                 <h2>Reviews</h2>
-                <Slider {...settings} className={'ms-4 me-4 ms-md-0 me-md-0'}>
-                    {testimonials.map((testimonial, index) => (
+                <Slider {...settings}>
+                    {testimonials.map((testimonial) => (
                         <Testimony
-                            key={index}
                             name={testimonial.name}
-                            imgSrc={testimonial.imgSrc}
+                            imgSrc={testimonial.imgSrc as string}
                             text={testimonial.text}
                         />
                     ))}

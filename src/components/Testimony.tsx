@@ -19,7 +19,7 @@ const StyledBlockquote = styled.blockquote`
 
 const TestimonialSlide: React.FC<TestimonialSlideProps> = ({ text, imgSrc, name }) => {
     return (
-        <div className={'m-md-3 mt-0 h-100'}>
+        <div className={'m-3 mt-0 h-100'}>
             <StyledBlockquote className={'border-start border-5 border-primary p-4 p-md-5 position-relative bg-white text-black'}>
                 <p className={'pb-5'}>{text}</p>
                 <StyledDiv className={'position-absolute text-center'}>

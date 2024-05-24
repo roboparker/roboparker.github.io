@@ -65,16 +65,16 @@ const Skills: React.FC = () => {
                         <div>Symfony</div>
                     </Skill>
                     <Skill>
-                        <i className="devicon-react-original"></i>
-                        <div>React</div>
-                    </Skill>
-                    <Skill>
                         <i className="devicon-wordpress-plain"></i>
                         <div>WordPress</div>
                     </Skill>
                     <Skill>
                         <i className="devicon-gatsby-original"></i>
                         <div>Gatsby</div>
+                    </Skill>
+                    <Skill>
+                        <i className="devicon-react-original"></i>
+                        <div>React</div>
                     </Skill>
                     <Skill>
                         <i className="devicon-unrealengine-original"></i>
