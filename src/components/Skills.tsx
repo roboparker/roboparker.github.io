@@ -10,6 +10,7 @@ const Skill = styled.div`
     display: inline-block;
     padding: 1rem;
     width: 50%;
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
     
     @media (min-width: 768px) {
         width: auto;
@@ -19,6 +20,7 @@ const Skill = styled.div`
         display: inline-block;
         font-size: 4rem;
         text-align: end;
+        
         @media (min-width: 768px) {
             font-size: 8rem;
         }
