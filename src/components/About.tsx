@@ -1,10 +1,14 @@
 import * as React from "react"
 import {Container} from "react-bootstrap";
+import styled from 'styled-components';
 
+const StyledSection = styled.section`
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 1);
+`;
 
 const About: React.FC = () => {
     return (
-        <section className="text-white bg-dark pt-5 pb-5">
+        <StyledSection className="text-white bg-dark pt-5 pb-5">
             <Container>
                 <h2>About</h2>
                 <p>
@@ -18,7 +22,7 @@ const About: React.FC = () => {
                     Let's connect and create something amazing together!
                 </p>
             </Container>
-        </section>
+        </StyledSection>
     )
 }
 

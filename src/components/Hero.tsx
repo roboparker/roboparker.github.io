@@ -5,6 +5,7 @@ import HeroImage from "../images/AdobeStock_183319570.jpeg";
 
 const StyledSection = styled.section`
     background-color: #ffec00;
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 
     @media (min-width: 1200px) {
         background: url(${HeroImage}) no-repeat center center;
