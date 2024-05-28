@@ -59,6 +59,18 @@ const config: GatsbyConfig = {
                     exclude: ["/preview/**", "/do-not-track/me/too/"],
                 },
             },
+        }, {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: "Roboparker",
+                short_name: "Roboparker",
+                start_url: "/",
+                background_color: "#8000ff",
+                theme_color: "#8000ff",
+                display: "browser",
+                icon: "src/images/favicon.png",
+                crossOrigin: `use-credentials`,
+            },
         }
     ]
 };
