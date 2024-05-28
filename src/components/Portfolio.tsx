@@ -21,42 +21,42 @@ const Portfolio: React.FC = () => {
                 <h2>Portfolio</h2>
                 <Row>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.bsnsports.com/" title={'BSN Sports Art Locker'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.bsnsports.com/" title={'BSN Sports Art Locker'} target={'_blank'}>
                             <img src={BSNImage as string} alt="BSN Sports Art Locker Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.acquia.com/products/acquia-campaign-studio" title={'Campaign Studio'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.acquia.com/products/acquia-campaign-studio" title={'Campaign Studio'} target={'_blank'}>
                             <img src={CampaignStudioImage as string} alt="Campaign Studio Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.hangrykits.com/" title={'Hangry Kits'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.hangrykits.com/" title={'Hangry Kits'} target={'_blank'}>
                             <img src={HangryKitImage as string} alt="Hangry Kits Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.aphmeow.com/" title={'Aphmau'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.aphmeow.com/" title={'Aphmau'} target={'_blank'}>
                             <img src={AphmauImage as string} alt="Aphmau Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://bonsaimirai.com/" title={'Bonsai Mirai'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://bonsaimirai.com/" title={'Bonsai Mirai'} target={'_blank'}>
                             <img src={BonsaiMiraiImage as string} alt="Bonsai Mirai Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://bushcooking.com/" title={'Bush Cooking'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://bushcooking.com/" title={'Bush Cooking'} target={'_blank'}>
                             <img src={BushCookingImage as string} alt="Bush Cooking Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.firstmovechess.org/" title={'First Move'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.firstmovechess.org/" title={'First Move'} target={'_blank'}>
                             <img src={FirstMoveImage as string} alt="First Move Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
                     <Col sm={12} md={6} lg={3}>
-                        <a href="https://www.firstmovechess.org/" title={'Seattle City Club'} target={'_blank'}>
+                        <a className={'d-block mb-4 shadow'} href="https://www.firstmovechess.org/" title={'Seattle City Club'} target={'_blank'}>
                             <img src={SeattleCityClub as string} alt="Seattle City Club Screen Shot" className="img-fluid" />
                         </a>
                     </Col>
