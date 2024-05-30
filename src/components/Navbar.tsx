@@ -3,12 +3,16 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Icon from '../images/favicon.png'
 
 const NavigationBar: React.FC = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
             <Container>
-                <Navbar.Brand href="#home">Robert Parker</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <img  className={"d-inline-block align-text-top me-2"} src={Icon as string} alt="Logo for roboparker" width={24} height={24}/>
+                    Robert Parker
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

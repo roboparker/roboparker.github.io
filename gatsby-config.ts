@@ -17,7 +17,7 @@ const config: GatsbyConfig = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                "icon": "src/images/icon.png"
+                "icon": "src/images/favicon.png"
             }
         }, "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
             resolve: 'gatsby-source-filesystem',
@@ -58,18 +58,6 @@ const config: GatsbyConfig = {
                     // Avoids sending pageview hits from custom paths
                     exclude: ["/preview/**", "/do-not-track/me/too/"],
                 },
-            },
-        }, {
-            resolve: `gatsby-plugin-manifest`,
-            options: {
-                name: "Roboparker",
-                short_name: "Roboparker",
-                start_url: "/",
-                background_color: "#8000ff",
-                theme_color: "#8000ff",
-                display: "browser",
-                icon: "src/images/favicon.png",
-                crossOrigin: `use-credentials`,
             },
         }
     ]
