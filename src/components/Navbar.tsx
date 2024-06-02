@@ -11,7 +11,7 @@ const NavigationBar: React.FC = () => {
             <Container>
                 <Navbar.Brand href="#home">
                     <img  className={"d-inline-block align-text-top me-2"} src={Icon as string} alt="Logo for roboparker" width={24} height={24}/>
-                    Robert Parker
+                    Roboparker
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
