@@ -5,9 +5,15 @@ import Copyright from "./Copyright";
 const Layout: React.FC = ({ children }) => {
     return (
         <>
-            <NavigationBar />
-            {children}
-            <Copyright />
+            <header>
+                <NavigationBar />
+            </header>
+            <main>
+                {children}
+            </main>
+            <footer>
+                <Copyright />
+            </footer>
         </>
     )
 }
