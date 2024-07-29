@@ -25,7 +25,8 @@ export default IndexPage
 export function Head() {
     return (
         <>
-            <title>Hello World</title>
+            <title>Robert Parker - I create interactive experiences for the web and games</title>
+            <meta name="description" content="I create interactive experiences for the web and games" />
             <html lang="en" />
         </>
     )
