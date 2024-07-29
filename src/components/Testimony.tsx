@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { StaticImage } from "gatsby-plugin-image"
 
 type TestimonialSlideProps = {
     text: string;
@@ -27,7 +28,7 @@ const TestimonialSlide: React.FC<TestimonialSlideProps> = ({ text, imgSrc, name 
         <div className={'p-3 mt-0 h-100'}>
             <StyledBlockquote className={'border-start border-primary p-4 position-relative bg-light text-dark shadow-sm'}>
                 <StyledDiv className={'text-center'}>
-                    <img className={'rounded-circle m-auto mb-2 shadow border border-1'} src={imgSrc} alt={`Photo of ${name}`} width={'128px'} height={'128px'} />
+                    <StaticImage className={'rounded-circle m-auto mb-2 shadow border border-1'} src={imgSrc} alt={`Photo of ${name}`} width={'128px'} height={'128px'} />
                     <cite className={'d-inline-block m-auto h4 mb-4 text-primary'}>{name}</cite>
                 </StyledDiv>
                 <p className={'mb-0'}>{text}</p>
