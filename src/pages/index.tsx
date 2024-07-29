@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import type { PageProps } from "gatsby"
 import '../styles/global.scss';
 import Layout from '../components/Layout';
 import About  from "../components/About";
@@ -22,4 +22,11 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export function Head() {
+    return (
+        <>
+            <title>Hello World</title>
+            <html lang="en" />
+        </>
+    )
+}
