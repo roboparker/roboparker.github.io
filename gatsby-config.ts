@@ -58,7 +58,13 @@ const config: GatsbyConfig = {
                     exclude: ["/preview/**", "/do-not-track/me/too/"],
                 },
             },
-        }
+        },
+        {
+            resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+            options: {
+                devMode: true,
+            },
+        },
     ]
 };
 
