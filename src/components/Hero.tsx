@@ -1,7 +1,7 @@
 import * as React from "react"
 import {Container} from "react-bootstrap";
 import styled from 'styled-components';
-import HeroImage from "../images/AdobeStock_183319570.jpeg";
+import HeroImage from "../images/AdobeStock_183319570.webp";
 
 const StyledSection = styled.section`
     background-color: #ffec00;
@@ -14,8 +14,6 @@ const StyledSection = styled.section`
         min-height: min(100vh, 800px); // Adjust this value as needed
     }
 `;
-
-//ffec00
 
 const Hero: React.FC = () => {
     return (
