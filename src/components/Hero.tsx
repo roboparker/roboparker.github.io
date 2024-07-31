@@ -8,7 +8,7 @@ const StyledSection = styled.section`
     text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
 
     @media (min-width: 1200px) {
-        background: url(${HeroImage}) no-repeat center center;
+        background: #ffec00 url(${HeroImage}) no-repeat center center;
         background-position: bottom right;
         background-size: cover;
         min-height: min(100vh, 800px); // Adjust this value as needed
