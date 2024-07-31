@@ -6,16 +6,16 @@ import {Container} from "react-bootstrap";
 
 import Testimony from "./Testimony";
 
-import JeremyRossImage from "../images/headshot-jeremy-ross.jpg";
-import MikeSayenkoImage from "../images/headshot-mike-sayenko.jpg";
-import MarkWestcottImage from "../images/headshot-mark-westcott.jpg";
-import BenSernaGreyImage from "../images/headshot-ben-serna.jpg";
-import SusanaSernaImage from "../images/headshot-susana-serna.jpg";
-import DanielDrierImage from "../images/headshot-daniel-drier.jpg";
-import MarkHartelImage from "../images/headshot-mark-hartel.jpg";
-import MattDittmannImage from "../images/headshot-matt-dittmann.jpg";
-import JessicaWallImage from "../images/headshot-jessica-wall.jpg";
-import DonGilbertImage from "../images/headshot-don-gilbert.jpg";
+import JeremyRossImage from "../images/headshot-jeremy-ross.webp";
+import MikeSayenkoImage from "../images/headshot-mike-sayenko.webp";
+import MarkWestcottImage from "../images/headshot-mark-westcott.webp";
+import BenSernaGreyImage from "../images/headshot-ben-serna.webp";
+import SusanaSernaImage from "../images/headshot-susana-serna.webp";
+import DanielDrierImage from "../images/headshot-daniel-drier.webp";
+import MarkHartelImage from "../images/headshot-mark-hartel.webp";
+import MattDittmannImage from "../images/headshot-matt-dittmann.webp";
+import JessicaWallImage from "../images/headshot-jessica-wall.webp";
+import DonGilbertImage from "../images/headshot-don-gilbert.webp";
 
 const testimonials = [
     {
