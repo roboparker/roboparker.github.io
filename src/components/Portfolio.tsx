@@ -2,16 +2,26 @@ import * as React from "react"
 import {Container, Row, Col} from "react-bootstrap";
 import styled from 'styled-components';
 import { StaticImage } from "gatsby-plugin-image"
+import {Link} from "gatsby";
+
 
 const StyledSection = styled.section`
-    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 1);
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 `;
 
 const Portfolio: React.FC = () => {
     return (
         <StyledSection className="bg-secondary pt-5 pb-5">
             <Container>
-                <h2>Portfolio</h2>
+                <h2>Game</h2>
+                <Row>
+                    <Col sm={12} md={6} lg={6}>
+                        <Link to="/lanternal" className={'d-block mb-4 shadow'} title={'Lanternal'} target={'_blank'}>
+                            <StaticImage src="../images/lanternal-title.png" alt="title artwork for lanternal game jam game" className="img-fluid" />
+                        </Link>
+                    </Col>
+                </Row>
+                <h2>Web</h2>
                 <Row>
                     <Col sm={12} md={6} lg={3}>
                         <a className={'d-block mb-4 shadow'} href="https://www.bsnsports.com/" title={'BSN Sports Art Locker'} target={'_blank'}>
