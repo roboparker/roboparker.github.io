@@ -9,7 +9,7 @@ const Lanternal: React.FC = () => {
     return (
         <Layout>
             <article>
-                <StaticImage src="../images/lanternal-title.png" alt="Lanternal Cover" className="img-fluid mb-3"/>
+                <StaticImage src="../images/lanternal-title.png" alt="Lanternal Cover" className="mb-3 w-100"/>
 
                 <Container>
                     <Row>
