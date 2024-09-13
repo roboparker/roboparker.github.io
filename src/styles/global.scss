@@ -20,3 +20,14 @@ $enable-shadows: true;
     height: 100%;
   }
 }
+
+body .slick-dots li button:before
+{
+  color: $light;
+  font-size: 1.5rem;
+}
+
+body .slick-dots li.slick-active button:before
+{
+  color: $primary;
+}
