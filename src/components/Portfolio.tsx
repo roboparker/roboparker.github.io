@@ -20,6 +20,21 @@ const Portfolio: React.FC = () => {
                             <StaticImage src="../images/lanternal-title.png" alt="title artwork for lanternal game jam game" className="img-fluid" />
                         </Link>
                     </Col>
+                    <Col sm={12} md={6} lg={6}>
+                        <Link to="/i-wet-my-plants" className={'d-block mb-4 shadow'} title={'I-wet-my-plants'} target={'_blank'}>
+                            <StaticImage src="../images/i-wet-my-plants-title.png" alt="title artwork for I wet my plants game jam game" className="img-fluid" />
+                        </Link>
+                    </Col>
+                    <Col sm={12} md={6} lg={6}>
+                        <Link to="/fractured-souls" className={'d-block mb-4 shadow'} title={'Fractured Soul'} target={'_blank'}>
+                            <StaticImage src="../images/fractured-soul-title.jpg" alt="title artwork for fractured Soul game jam game" className="img-fluid" />
+                        </Link>
+                    </Col>
+                    <Col sm={12} md={6} lg={6}>
+                        <Link to="/i-must-rest" className={'d-block mb-4 shadow'} title={'I Must Rest'} target={'_blank'}>
+                            <StaticImage src="../images/i-must-rest-gameplay-screenshot-1.png" alt="title artwork for I Must Rest game jam game" className="img-fluid" />
+                        </Link>
+                    </Col>
                 </Row>
                 <h2>Web</h2>
                 <Row>
