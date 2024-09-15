@@ -14,8 +14,6 @@ const StyledDiv = styled.div`
 
 const StyledBlockquote = styled.blockquote`
     height: 100%;
-
-    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175);
     
     &.border-start {
         border-left-width: 16px !important;

@@ -38,40 +38,12 @@ const Skills: React.FC = () => {
             <Container>
                 <StyledDiv className={'text-center'}>
                     <Skill>
-                        <i className="devicon-php-plain"></i>
-                        <div>PHP</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-javascript-plain"></i>
-                        <div>JavaScript</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-python-plain"></i>
-                        <div>Python</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-cplusplus-plain"></i>
-                        <div>C++</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-redis-plain"></i>
-                        <div>Redis</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-postgresql-plain"></i>
-                        <div>SQL</div>
-                    </Skill>
-                    <Skill>
                         <i className="devicon-symfony-original"></i>
                         <div>Symfony</div>
                     </Skill>
                     <Skill>
                         <i className="devicon-wordpress-plain"></i>
                         <div>WordPress</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-gatsby-original"></i>
-                        <div>Gatsby</div>
                     </Skill>
                     <Skill>
                         <i className="devicon-react-original"></i>
@@ -82,16 +54,8 @@ const Skills: React.FC = () => {
                         <div>Unreal Engine</div>
                     </Skill>
                     <Skill>
-                        <i className="devicon-amazonwebservices-plain-wordmark"></i>
-                        <div>AWS</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-docker-plain"></i>
-                        <div>Docker</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-kubernetes-plain"></i>
-                        <div>K8s</div>
+                        <i className="devicon-unity-plain"></i>
+                        <div>Unity</div>
                     </Skill>
                 </StyledDiv>
             </Container>

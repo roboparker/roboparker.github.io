@@ -7,6 +7,10 @@ $enable-shadows: true;
 @import "~slick-carousel/slick/slick-theme";
 @import "~devicon/devicon-base";
 
+body {
+  background-color: $primary;
+}
+
 .slick-track
 {
   display: flex !important;

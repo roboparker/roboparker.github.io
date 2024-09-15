@@ -9,9 +9,9 @@ const Lanternal: React.FC = () => {
     return (
         <Layout>
             <article>
-                <StaticImage src="../images/lanternal-title.png" alt="Lanternal Cover" className="mb-3 w-100"/>
+                <StaticImage src="../images/lanternal-title.png" alt="Lanternal Cover" className="w-100"/>
 
-                <Container>
+                <Container className="bg-white p-4">
                     <Row>
                         <Col>
                             <h1 className={'h1'}>Lanternal</h1>
