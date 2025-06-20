@@ -12,14 +12,13 @@ const About: React.FC = () => {
             <Container>
                 <h2>About</h2>
                 <p>
-                    I am a passionate web and game developer with over a decade of experience in crafting innovative and efficient digital solutions.
-                    My approach to development is rooted in creating digital experiences that are not only functional but also engaging and user-friendly.
-                    With a strong background in both backend and frontend technologies, I bridge the gap between design and functionality
+                    I’m a game developer on a quest to turn small ideas into meaningful adventures. Over the years, I’ve collaborated on a variety of game jam projects—leading teams, writing code, and building everything from cozy puzzle games to bullet-hell shooters.
                 </p>
                 <p>
-                    I believe in the power of collaboration and am always excited to take on new challenges,
-                    whether it’s a custom web solution, or game development.
-                    Let's connect and create something amazing together!
+                    I specialize in gameplay programming and rapid prototyping using Godot, Unity and Unreal Engine, and I enjoy crafting systems that feel good to play and easy to expand. Whether I’m leading a jam team, fixing a tricky bug at 3 AM, or experimenting with quirky mechanics, I’m always driven by a love for storytelling through interaction.
+                </p>
+                <p>
+                    When I'm not coding, you’ll probably find me sketching out game ideas, chatting with fellow devs in the local area, or testing out new systems just to see what breaks.
                 </p>
             </Container>
         </StyledSection>

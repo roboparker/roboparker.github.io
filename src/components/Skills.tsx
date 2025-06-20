@@ -38,16 +38,8 @@ const Skills: React.FC = () => {
             <Container>
                 <StyledDiv className={'text-center'}>
                     <Skill>
-                        <i className="devicon-symfony-original"></i>
-                        <div>Symfony</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-wordpress-plain"></i>
-                        <div>WordPress</div>
-                    </Skill>
-                    <Skill>
-                        <i className="devicon-react-original"></i>
-                        <div>React</div>
+                        <i className="devicon-godot-plain"></i>
+                        <div>Godot Engine</div>
                     </Skill>
                     <Skill>
                         <i className="devicon-unrealengine-original"></i>

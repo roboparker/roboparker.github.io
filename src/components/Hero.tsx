@@ -17,7 +17,7 @@ const StyledSection = styled.section`
 
 const Hero: React.FC = () => {
     return (
-        <StyledSection className={'d-lg-flex align-items-center pt-5 pb-5'}>
+        <StyledSection className={'d-lg-flex align-items-end pt-5 pb-5'}>
             <Container>
                 <div>
                     <h1 className={'h1'}>
@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
                     </h1>
                     <p className={'h4'}>
                         <strong>
-                            I create interactive experiences for the web and games.
+                            From game jams to original worlds, I turn ideas into interactive experiences using Godot, Unity, Unreal, and a love for the craft.
                         </strong>
                     </p>
                 </div>
